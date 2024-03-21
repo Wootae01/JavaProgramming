@@ -20,8 +20,10 @@ public class ScoreAverage {
         while (true) {
             loop++;
             int tmp = scanner.nextInt();
-            if(tmp == 0)
+            if(tmp == 0) {
+                loop--;
                 break;
+            }
             else
                 score += tmp;
         }
