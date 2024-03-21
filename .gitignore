@@ -35,4 +35,4 @@ bin/
 out
 gen
 .gradle
-.build
+build
