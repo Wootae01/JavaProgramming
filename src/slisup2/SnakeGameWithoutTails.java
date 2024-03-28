@@ -52,8 +52,8 @@ public class SnakeGameWithoutTails {
         if (keyword.equals("0")) {
             return false;
         }
-        int row = location.x;
-        int col = location.y;
+        int row = location.getX();
+        int col = location.getY();
         board[row][col] = 0;
 
         if (keyword.equals("r")) {
